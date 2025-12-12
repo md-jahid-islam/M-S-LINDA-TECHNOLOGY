@@ -184,7 +184,7 @@ import { Link } from 'react-router-dom';
                 
                 {/* 🔴 Header Section (Company Info) */}
                 <header className="p-4 sm:p-6 border-b border-gray-300">
-               <div className="flex flex-col ml-[200px] sm:flex-row items-center sm:items-start gap-6 sm:gap-8">
+               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8">
                    {/* Left - Logo */}
                    <div className="flex-shrink-0">
                      <img src="/images/ms.jpg.png" alt="logo" className="w-28 h-28 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-red-500 shadow-lg"/>

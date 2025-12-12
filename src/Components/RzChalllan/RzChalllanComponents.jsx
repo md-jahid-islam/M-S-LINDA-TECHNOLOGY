@@ -183,7 +183,7 @@ import { Link } from 'react-router-dom';
             <div className="max-w-7xl mx-auto bg-white border-2 border-gray-400 shadow-2xl rounded-lg overflow-hidden transition-all duration-300 challan-container">
                 
                 {/* 🔴 Header Section (Company Info) */}
-                <header className="p-4 sm:p-6 border-b border-gray-300 ml-[200px] ">
+                <header className="p-4 sm:p-6 border-b border-gray-300">
                     <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
                         
                     {/* Left - Logo */}

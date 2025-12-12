@@ -5,7 +5,7 @@ import React from "react";
     designation: "Managing Director",
     image: "/images/team/jobaidul.jpg",
     description:
-      "A visionary business leader with strong expertise in company management, strategic planning and decision making. He leads multiple companies under the Linda Technology & RZ group with dedication, professionalism and long-term vision.",
+    "A visionary business leader with strong expertise in company management, strategic planning and decision making. He leads multiple companies under the Linda Technology & RZ group with dedication, professionalism and long-term vision.",
     skills: [
       "Business Strategy",
       "Company Management",
@@ -25,7 +25,7 @@ import React from "react";
     designation: "Chairman",
     image: "/images/team/ferdous.jpg",
     description:
-      "An experienced and dedicated manager skilled in office administration, client communication and team coordination. He ensures smooth daily operations and maintains strong relationships with clients and staff.",
+    "An experienced and dedicated manager skilled in office administration, client communication and team coordination. He ensures smooth daily operations and maintains strong relationships with clients and staff.",
     skills: [
       "Office Administration",
       "Client Handling",
@@ -45,7 +45,7 @@ import React from "react";
     designation: "Manager",
     image: "/images/team/eity.jpg",
     description:
-      "A hardworking and organized professional responsible for customer support, report management and office coordination. She plays an important role in maintaining efficient communication and documentation.",
+    "A hardworking and organized professional responsible for customer support, report management and office coordination. She plays an important role in maintaining efficient communication and documentation.",
     skills: [
       "Customer Service",
       "Data Entry",
@@ -65,7 +65,7 @@ import React from "react";
     designation: "Hardware Engineer",
     image: "/images/team/saiful.jpg",
     description:
-      "A skilled hardware engineer with strong experience in computer hardware, networking systems, CCTV installation, and technical troubleshooting. He supports and maintains the technical infrastructure of the company.",
+    "A skilled hardware engineer with strong experience in computer hardware, networking systems, CCTV installation, and technical troubleshooting. He supports and maintains the technical infrastructure of the company.",
     skills: [
       "Computer Hardware",
       "Networking",
@@ -82,10 +82,10 @@ import React from "react";
   },
   {
     name: "MD. Jahidul Islam",
-    designation: "Web & Software Engineer",
-    image: "/images/team/jahid.jpg",
+    designation: "Web & Software Developer",
+    image: "/images/imges.jpg",
     description:
-      "A creative and passionate web & software engineer specializing in modern front-end and full stack technologies. He designs and develops responsive, high-performance websites and applications for business solutions.",
+    "A creative and passionate web & software engineer specializing in modern front-end and full stack technologies. He designs and develops responsive, high-performance websites and applications for business solutions.",
     skills: [
       "React.js",
       "Node.js",
@@ -110,7 +110,7 @@ import React from "react";
     <div className="w-full max-w-7xl mx-auto px-5 py-10">
       {/* Title */}
       <h2 className="text-4xl font-bold text-center text-blue-600 mb-12">
-        About Our Company & Professionals
+      About Our Company & Professionals
       </h2>
 
       {/* Description */}
@@ -129,19 +129,13 @@ import React from "react";
           Our Skilled Team Members
         </h3>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
           {teamMembers.map((member, index) => (
             <div
-              key={index}
-              className="group bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col"
-            >
+              key={index} className="group bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col">
               {/* Image */}
-              <div className="flex justify-center mb-5">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-28 h-28 rounded-full object-cover border-4 border-blue-500 group-hover:scale-110 transition"
-                />
+              <div className="flex justify-center mb-5 ">
+              <img src={member.image} alt={member.name} className="w-28 h-28 rounded-full mt-2 object-cover group-hover:scale-110 transition"/>
               </div>
 
               {/* Name & Designation */}
@@ -165,9 +159,7 @@ import React from "react";
                 <div className="flex flex-wrap gap-2">
                   {member.skills.map((skill, i) => (
                     <span
-                      key={i}
-                      className="text-xs bg-green-100 text-green-700 px-3 py-1 rounded-full"
-                    >
+                      key={i} className="text-xs bg-green-100 text-green-700 px-3 py-1 rounded-full">
                       {skill}
                     </span>
                   ))}
@@ -183,8 +175,7 @@ import React from "react";
                   {member.companies.map((company, i) => (
                     <span
                       key={i}
-                      className="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full"
-                    >
+                      className="text-xs bg-blue-100 text-blue-700 px-3 py-1 rounded-full">
                       {company}
                     </span>
                   ))}
