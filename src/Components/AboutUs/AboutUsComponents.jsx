@@ -187,7 +187,7 @@ import React from "react";
       </section>
     </div>
   );
- };
-
+ }; 
+ 
  export default AboutUsComponents;
-//  fgjhasdjkfgiqerqropqwrqpweropopqewuryrmncvnm.,iafackadfsfjas
+ //  fsdhjsdf0rl;qwer;lasdfk 
